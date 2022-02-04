@@ -40,4 +40,15 @@ h2{
 hr{
     position: relative;
     top: 60px;
+}
+.question1{
     
+    position: absolute;
+    left: 50px;
+    top: 120px;
+    
+}
+.question1 p{
+    font-style: italic;
+    font-weight: bolder;
+}
