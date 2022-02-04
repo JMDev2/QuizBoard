@@ -52,3 +52,9 @@ hr{
     font-style: italic;
     font-weight: bolder;
 }
+.question1 ul{
+    padding: 5px;
+}
+.question1 ul li{
+    padding: 5px;
+}
