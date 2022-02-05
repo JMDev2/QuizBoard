@@ -17,10 +17,10 @@
     height: 480px;
     width: 380px;
     border: 1px solid black;
-    position: absolute;
+    position: fixed;
     padding: 20px;
     top: 60px;
-    left: 37%;
+    left: 36%;
     background-color: white;
     border-radius: 10px;
 
@@ -62,7 +62,7 @@ hr{
     width: 380px;
     left: -30px;
 }
-.button {
+button{
     background-color: #4CAF50;
     border: none;
     color: white;
@@ -73,5 +73,12 @@ hr{
     cursor: pointer;
     margin-top: 20px;
     border-radius: 20px;
+  }
+  #results{
+    
+      height: 80px;
+      margin-top: 40px;
+      margin-left: 10px;
+      border-radius: 20px;
   }
 

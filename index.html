@@ -9,8 +9,8 @@
 
     </head>
     <body>
-        <form>
-            <div class="form">
+        <form name="form" id="quiz">
+            
                 <div class="box1">
     
                 </div>
@@ -21,42 +21,36 @@
                     <div class="questions">
                         <div class="question1">
                             <p>What is Short form of HTML?</p>
-                            <input type="radio" id="html" name="html" value="html">
-                            <label for="html">HTML</label> <br>
-                            <input type="radio" id="hmlt" name="hmlt" value="hmlt">
-                            <label for="html">HMLT</label> <br>
-                            <input type="radio" id="mlht" name="mlht" value="mlht">
-                            <label for="MLHT">HTML</label> <br>
+                            <P><input type="radio" name="quiz1" value="html">HTML</P>
+                            <P><input type="radio" name="quiz1" value="hmlt">hmlt</P>
+                            <P><input type="radio" name="quiz1" value="mlht">MLHT</P>
+                            
+                            
                             <br>
                         </div>
     
                         <div class="question2">
                             <p>What is the other name for Javascript?</p>
-                            <input type="radio" id="ECMAscript" name="ECMAscript" value="ECMAscript">
-                            <label for="ECMAscript">ECMAscript</label> <br>
-
-                            <input type="radio" id="js" name="js" value="js">
-                            <label for="js">JS</label> <br>
-
-                            <input type="radio" id="idontknow" name="idontknow" value="idontknow">
-                            <label for="idontknow">I dont know</label> <br>
-    
+                            <P><input type="radio" name="quiz1" value="ECMAscript">ECMAscript</P>
+                            <P><input type="radio" name="quiz1" value="js">JS</P>
+                            <P><input type="radio" name="quiz1" value="css">CSS</P>
+                            
                         </div>
                         <br>
 
                         <div class="question3">
                             <p>Is C++ a low level language?</p>
-                            <input type="radio" id="yes" name="yes" value="yes">
-                            <label for="yes">Yes</label> <br>
-
-                            <input type="radio" id="no" name="no" value="no">
-                            <label for="no">No</label> <br>
+                            <P><input type="radio" name="quiz1" value="yes">YES</P>
+                            <P><input type="radio" name="quiz1" value="no">NO</P>
+                            
                             
                         </div>
                         <hr class="line">
                         
-                            <button class="button">Button</button>
+                            <!-- <button onclick="myFunction ()" id="btn">Submit</button>  -->
+                            <input type="button" onclick="myFunction()" value="Submit">
 
+                            <input type="text" id="results">
                     
                     </div>
                     
@@ -64,10 +58,10 @@
 
 
                 </div>
-            </div>
+            
         </form>
         
 
-
+        <script type="text/javascript" src="index.js"></script>
     </body>
     </html>
