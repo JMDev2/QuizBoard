@@ -7,7 +7,7 @@ function myClass(){
     if (correctAnswer1=="HTML"){score++};
     if (correctAnswer2=="JS"){score++};
     if (correctAnswer3=="NO"){score++};
-    form.style.display="none"
+    
     empty.textContent=score;
 
 if (score==3){
