@@ -5,7 +5,7 @@
 }
 .box1{
     height: 490px;
-    width: 390px;
+    width: 350px;
     border: 1px solid black;
     position: relative;
     padding: 20px;
@@ -15,7 +15,7 @@
 }
 .box2{
     height: 480px;
-    width: 380px;
+    width: 340px;
     border: 1px solid black;
     position: fixed;
     padding: 20px;
@@ -59,7 +59,7 @@ hr{
 }
 .line{
     top: 10px;
-    width: 380px;
+    width: 330px;
     left: -30px;
 }
 #Btn{
