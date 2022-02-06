@@ -6,8 +6,7 @@ function myClass(){
     var empty=document.getElementById("empty")
     if (correctAnswer1=="HTML"){score++};
     if (correctAnswer2=="JS"){score++};
-    if (correctAnswer3=="NO"){score++};
-    
+    if (correctAnswer3=="NO"){score++};  
     empty.textContent=score;
 
 if (score==3){

@@ -78,6 +78,10 @@ hr{
 #empty{
     background-color: blue;
     border: 1px solid black;
-    height: 60px;
+    height: 70px;
     width: 160px;
+    position: relative;
+    left: 170px;
+    top: -60px;
+    border-radius: 20px;
 }
