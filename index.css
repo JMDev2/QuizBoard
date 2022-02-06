@@ -84,4 +84,12 @@ hr{
     left: 170px;
     top: -60px;
     border-radius: 20px;
+    text-align: center;
+    
+}
+h3{
+    color: white;
+    margin-top: 20px;
+    font-style: italic;
+    
 }
