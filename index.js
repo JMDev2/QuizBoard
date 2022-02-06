@@ -3,7 +3,7 @@ function myClass(){
     var correctAnswer1=document.form.quiz1.value; 
     var correctAnswer2=document.form.quiz2.value; 
     var correctAnswer3=document.form.quiz3.value; 
-    var empty=document.getElementById("empty")
+    var empty=document.getElementById("empty");
     if (correctAnswer1=="HTML"){score++};
     if (correctAnswer2=="JS"){score++};
     if (correctAnswer3=="NO"){score++};  
