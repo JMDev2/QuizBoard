@@ -4,8 +4,8 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .box1{
-    height: 500px;
-    width: 410px;
+    height: 490px;
+    width: 390px;
     border: 1px solid black;
     position: relative;
     padding: 20px;
@@ -19,8 +19,8 @@
     border: 1px solid black;
     position: fixed;
     padding: 20px;
-    top: 60px;
-    left: 36%;
+    top: 55px;
+    left: 35.5%;
     background-color: white;
     border-radius: 10px;
 
