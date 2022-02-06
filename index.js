@@ -10,12 +10,12 @@ function myClass(){
     empty.textContent=score;
 
 if (score==3){
-    empty.textContent="Your Score is " + Math.floor(score/3*100) + "%. Excellent."
+    empty.textContent="Your Score is " + score/3*100 + "%. Excellent."
 }
 else if(score==2){
-    empty.textContent="Your Score is " + Math.floor(score/3*100) + "%. Average."
+    empty.textContent="Your Score is " + score/3*100 + "%. Average."
 }
 else{
-    empty.textContent="Your Score is " + Math.floor(score/3*100) + "%. Fail."
+    empty.textContent="Your Score is " + score/3*100 + "%. Fail."
 }
 };
