@@ -74,14 +74,8 @@ hr{
     margin-top: 360px;
     border-radius: 20px;
   }
-  #results{
-    
-      height: 80px;
-      margin-top: 40px;
-      margin-left: 10px;
-      border-radius: 20px;
-  }
 
 #empty{
     background-color: blue;
+    
 }
